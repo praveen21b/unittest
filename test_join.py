@@ -1,4 +1,5 @@
 from join import joins
+import pytest
 
 def test_joins_single_items():
     assert joins([1],'')=='1'
